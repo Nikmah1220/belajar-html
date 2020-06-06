@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	  <title>Topic 2</title>
+	  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	  <link rel="icon" href="assets/img/icon.png">
+	  <style type="text/css">
+	    body{
+	      background-image: url("assets/img/wp.jpg");
+	    }
+	  </style>
+	</head>
+	<body>
+	  <div class="vid-container">
+	    <div class="inner-container">
+	      <div class="box">
+	        <center><img src="assets/img/icon.png" width="80" height="80"></center>
+	        <h1>Silahkan Masuk</h1>
+	        <p>Selamat Belajar</p>
+	        <input type="text" placeholder="Username"/>
+	        <input type="text" placeholder="Password"/>
+	        <button>Login</button>
+	        <p>Bukan anggota ? <span>Mendaftar</span></p>
+	      </div>
+	    </div>
+	  </div>
+	</body>
+	</html>
+
+
+Penjelasan:
+<!DOCTYPE html> untuk menentukan tipe dokumen
+<HTML> … </HTML> kumpulan karakter yang mengawali dan mengakhiri suatu tag. Karakter yang digunakan (<>). Tag awal disebut opening tag, tag akhir disebut ending tag ditandai dengan (/)
+ <HEAD> … </HEAD> Diantaranya adalah area dari heading halaman. Digunakan untuk script/perintah khusus yang tidak mempunyai hubungan dengan format dari halaman. 
+<TITLE> … </TITLE> Digunakan untuk pemberian judul
+<body></body> Tempat dibuatnya semua konten website menggunakan HTML
+<button></button> ini buat tombol
+<p></p> ini buat tag paragraf
+<h1> </h1> Membuat judul atau heading
+</div> untuk mengelompokkan elemen atau tag-tag agar menjadi suatu grup. Tag div ini juga sering digunakan untuk mendefinisikan id atau class dari css
